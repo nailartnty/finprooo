@@ -1,3 +1,7 @@
+import 'package:finpronih/UI/Auth/login_screen.dart';
+import 'package:finpronih/UI/Auth/signin_screen.dart';
+import 'package:finpronih/UI/Splash/on_boarding.dart';
+import 'package:finpronih/UI/Splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,8 +25,15 @@ class HomeWalkApp extends StatelessWidget {
           bodySmall: TextStyle(color: Colors.black)
         )
       ),
-      initialRoute: '/',
       
+      initialRoute: '/',
+      routes: {
+        '/' : (context) => const SplashScreen(),
+        '/login' : (context) => const LoginScreen(),
+        '/signup' : (context) => const SigninScreen(),
+        '/onboarding' : (context) => const OnboardingScreen(),
+
+      },
     );
   }
 }

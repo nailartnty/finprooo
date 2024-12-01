@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 // a primary color definition
-const primaryColor = Color(0xFFBB7B85);
-const primaryLightColor = Color(0xFFCD969F);
+const primaryColor = Color(0xFF70B9BE);
+const primaryLightColor = Color(0xFFC6E3E5);
 
   // a secondary color definition
-  const secondaryColor = Color(0xFF979797);
+  const secondaryColor = Color(0xFF0B1957);
   const textColor = Color(0xFF757575); 
 
   // animationDuration time definition

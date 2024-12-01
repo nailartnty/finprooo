@@ -73,24 +73,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
+  fonts:
+    - family: Sofia Pro
       fonts:
         - asset: assets/fonts/AnyConv.com__Sofia Pro Black Az.ttf
-        weight: 
-        - asset: assets/fonts/Sofia Pro Bold Az.otf
+        - asset: assets/fonts/AnyConv.com__Sofia Pro Bold Az.ttf
         - asset: assets/fonts/AnyConv.com__Sofia Pro ExtraLight Az.ttf
-        weight: 
         - asset: assets/fonts/AnyConv.com__Sofia Pro Light Az.ttf
-        weight: 
         - asset: assets/fonts/AnyConv.com__Sofia Pro Medium Az.ttf
-        weight: 
         - asset: assets/fonts/AnyConv.com__Sofia Pro Regular Az.ttf
-        weight: 
         - asset: assets/fonts/AnyConv.com__Sofia Pro Semi Bold Az.ttf
-        weight: 
         - asset: assets/fonts/AnyConv.com__Sofia Pro UltraLight Az.ttf
-        weight: 
 
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
