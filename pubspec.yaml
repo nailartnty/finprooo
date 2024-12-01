@@ -76,7 +76,22 @@ flutter:
   # fonts:
   #   - family: Schyler
       fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+        - asset: assets/fonts/AnyConv.com__Sofia Pro Black Az.ttf
+        weight: 
+        - asset: assets/fonts/Sofia Pro Bold Az.otf
+        - asset: assets/fonts/AnyConv.com__Sofia Pro ExtraLight Az.ttf
+        weight: 
+        - asset: assets/fonts/AnyConv.com__Sofia Pro Light Az.ttf
+        weight: 
+        - asset: assets/fonts/AnyConv.com__Sofia Pro Medium Az.ttf
+        weight: 
+        - asset: assets/fonts/AnyConv.com__Sofia Pro Regular Az.ttf
+        weight: 
+        - asset: assets/fonts/AnyConv.com__Sofia Pro Semi Bold Az.ttf
+        weight: 
+        - asset: assets/fonts/AnyConv.com__Sofia Pro UltraLight Az.ttf
+        weight: 
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
